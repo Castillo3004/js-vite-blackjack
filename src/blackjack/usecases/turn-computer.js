@@ -15,7 +15,7 @@ export const turnComputer = async(pointsPlayers, pointsMin, deck, divCardsPlayer
 
         computerPoints = acumulatePoints(card, pointsPlayers.length - 1, pointsPlayers, pointsMin );
         createCard(card, pointsPlayers.length - 1, divCardsPlayers);
-        await sleep(150);
+        await sleep(350);
 
         count++;
 
