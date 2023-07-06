@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body{
+  margin: 0px;
+  background: #366236;
+  color: white;
+}
+
+.title{
+  text-align: center;
+  background: #000; 
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.h1-mod{
+  display: inline;
+}
+
+.row--modify{
+  margin: 0;
+}
+
+.card{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.card{
+  display: inline;
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computer-card, #player-card{
+  height: 240px;
+}
